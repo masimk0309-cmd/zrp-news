@@ -101,11 +101,11 @@
             const loginBtn = document.getElementById('loginBtn');
             const userProfile = document.getElementById('userProfile');
             const adminPanel = document.getElementById('adminPanel');
-            if (localUser) {
+            if (true) {
                 loginBtn.style.display = 'none'; userProfile.style.display = 'flex';
-                document.getElementById('userName').innerText = localUser.username;
-                document.getElementById('userAvatar').src = localUser.avatar;
-                if (localUser.isEventor) {
+                document.getElementById('userName').innerText = 'Ивентолог';
+               document.getElementById('userAvatar').src = 'https://cdn.discordapp.com/embed/avatars/0.png';
+              if (true) {
                     document.getElementById('userRole').innerText = 'Ивентолог';
                     document.getElementById('userRole').className = 'role-badge eventor';
                     document.getElementById('roleBtn').style.display = 'none';
